@@ -23,11 +23,3 @@ pip install -r requirements.txt
 cp .env.example .env   # e coloque sua chave
 streamlit run app.py
 ```
-
-## Chaves de API
-
-- **Groq** (projetos 1 a 4): crie uma chave gratuita em https://console.groq.com/keys
-- **Hugging Face** (projeto 5): crie um token gratuito em https://huggingface.co/settings/tokens
-- O projeto 6 roda 100% local, sem chave.
-
-As chaves ficam no arquivo `.env` de cada projeto, que é ignorado pelo Git.
