@@ -8,8 +8,8 @@ Todos os projetos usam **Python** e **Streamlit** para a interface. Os que usam 
 |---|---------|-----------|-------------|
 | 1 | [Chatbot Assistente](01-chatbot-assistente) | Chat com personas configuráveis, histórico e respostas em streaming | Groq, Llama 3, Streamlit |
 | 2 | [Resumidor de PDF](02-resumidor-pdf) | Resume PDFs longos dividindo em partes (map-reduce) | Groq, pypdf |
-| 3 | [Perguntas sobre Documentos (RAG)](03-rag-documentos) | Responde perguntas com base nos seus arquivos, citando os trechos | RAG, TF-IDF, scikit-learn, Groq |
-| 4 | [Extrator de Vagas](04-extrator-vagas) | Transforma o texto de uma vaga em JSON estruturado | Groq (JSON mode), pandas |
+| 3 | [Perguntas sobre Documentos (RAG)](03-rag-documentos) | Responde perguntas com base nos seus arquivos, citando os trechos | RAG, embeddings, ChromaDB, Groq |
+| 4 | [Extrator de Vagas](04-extrator-vagas) | Transforma o texto de uma vaga em JSON e calcula a compatibilidade com um currículo | Groq (JSON mode), pandas |
 | 5 | [Gerador de Imagens](05-gerador-imagens) | Gera imagens a partir de texto com modelos de difusão | Hugging Face Inference, FLUX / Stable Diffusion |
 | 6 | [Legendas para Imagens](06-legendas-imagens) | Descreve imagens automaticamente, rodando localmente | Transformers, BLIP, PyTorch |
 
